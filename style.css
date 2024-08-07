@@ -1,0 +1,36 @@
+:root {
+    --branco_principal: #ffffff;
+    --cinza_secundario: #c0c0c0;
+    --botao_azul:#167bf7;
+    --cor_de_fundo: #00030c;
+}
+
+body {
+        background-color: var(--cor_de_fundo);
+        color: var(--branco_principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contaainer_botao {
+    background-color: var(--botao_azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco_principal);
+    display: block;
+}
